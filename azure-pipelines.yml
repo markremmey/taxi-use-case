@@ -22,7 +22,7 @@ steps:
 
 - task: AzureCLI@2
   inputs:
-    azureSubscription: 'your-azure-subscription'
+    azureSubscription: 'MCAPS-Hybrid-REQ-42129-2022-markremmey'
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
     inlineScript: |
